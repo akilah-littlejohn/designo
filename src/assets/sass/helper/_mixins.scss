@@ -1,0 +1,16 @@
+@mixin navItems { 
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin text-box {
+    background-color: #E7816B;
+    color:#fff;   
+}
