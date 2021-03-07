@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class AppDesignComponent implements OnInit {
 
   constructor() { }
-
+  feature:string = ''
   ngOnInit(): void {
   }
-
+  addFeature() {
+  this.feature = "my string"
+}
 }
