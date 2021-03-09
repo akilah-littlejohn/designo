@@ -3,6 +3,10 @@
 .text-box--mid {
   background-color: #e7816b;
   color: #fff;
+  width: 1111px;
+  height: 292px;
+  border-radius: 15px;
+  margin-top:20px;
 }
 .header-nav--logo {
   width: 220px;
@@ -11,7 +15,12 @@
 footer {
   background-color: #1d1c1e;
   color: #fff;
-  padding-bottom: 6rem;
+  padding-bottom: 5rem;
+}
+
+nav {
+  margin-top: 5rem;
+  width: 1111px;
 }
 .header-nav--items a {
   font-family: Jost;
@@ -28,6 +37,7 @@ footer {
 
 .hr-secondary {
   color: #979797;
+  width: 1111px;
 }
 .footer--location-text-box {
 
@@ -35,8 +45,10 @@ footer {
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
-  line-height: .75em;
+  line-height: .5em;
+
+
 }
-.footer--location-text-box-paragragh {
-  font-weight: 200;
+.box {
+  width: 1111px;
 }
