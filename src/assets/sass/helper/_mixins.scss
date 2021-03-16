@@ -1,4 +1,4 @@
-@mixin navItems { 
+@mixin navItems {
   font-family: Jost;
   font-size: 14px;
   font-style: normal;
@@ -11,6 +11,11 @@
 }
 
 @mixin text-box {
-    background-color: #E7816B;
-    color:#fff;   
+  background-color: $primary-ph;
+  color: $secondary-gry;
+  width: 1111px;
+  height: 292px;
+  border-radius: 15px;
+  background-color: #e7816b;
+  color: #fff;
 }

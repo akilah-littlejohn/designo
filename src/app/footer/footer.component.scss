@@ -1,54 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap");
+@import "../../assets/sass/helper/variables.scss";
+@import "../../assets/sass/helper/mixins.scss";
+@import "../../assets/sass/globals/base.scss";
+@import "../../assets/sass/animations/animations";
 
-.text-box--mid {
-  background-color: #e7816b;
-  color: #fff;
-  width: 1111px;
-  height: 292px;
-  border-radius: 15px;
-  margin-top:20px;
+.footer-section {
+  position: absolute;
+  bottom: 100%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
 }
+.text-box--mid {
+  @include text-box;
+  display: flex;
+  margin: auto 0;
+}
+
 .header-nav--logo {
   width: 220px;
   height: 27px;
 }
 footer {
-  background-color: #1d1c1e;
+  background-color: $primary-blk;
   color: #fff;
-  padding-bottom: 5rem;
 }
 
 nav {
   margin-top: 5rem;
-  width: 1111px;
+  width: $lg-sz;
 }
-.header-nav--items a {
-  font-family: Jost;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 14px;
-  letter-spacing: 2px;
+a {
+  @include navItems;
   color: #fff;
-  padding: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
+
 }
 
 .hr-secondary {
   color: #979797;
-  width: 1111px;
+  width: $lg-sz;
 }
 .footer--location-text-box {
-
   font-family: Jost;
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.5;
-  line-height: .5em;
-
-
+  line-height: 0.5em;
 }
-.box {
-  width: 1111px;
+.footer--location-text-box-contact{
+  width:$lg-sz;
+  height: 200px;;
 }
